@@ -6,6 +6,11 @@
 //  Copyright © 2019 Wren Liang. All rights reserved.
 //
 
+
+
+//VIEWS CONFIGURED FOR IPHONE XR
+
+
 import UIKit
 
 class ViewController: UIViewController, animatorDelegate {
