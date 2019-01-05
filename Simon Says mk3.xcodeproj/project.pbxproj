@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C4A27C121E038800097F95F /* delegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A27C021E038800097F95F /* delegateProtocol.swift */; };
 		6CBD902021DFC799009F6C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD901F21DFC799009F6C39 /* AppDelegate.swift */; };
 		6CBD902221DFC799009F6C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD902121DFC799009F6C39 /* ViewController.swift */; };
 		6CBD902521DFC799009F6C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD902321DFC799009F6C39 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C4A27C021E038800097F95F /* delegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegateProtocol.swift; sourceTree = "<group>"; };
 		6CBD901C21DFC799009F6C39 /* Simon Says mk3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon Says mk3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBD901F21DFC799009F6C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CBD902121DFC799009F6C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +61,11 @@
 				6CBD901F21DFC799009F6C39 /* AppDelegate.swift */,
 				6CBD902121DFC799009F6C39 /* ViewController.swift */,
 				6CBD902321DFC799009F6C39 /* Main.storyboard */,
+				6CBD903121DFD011009F6C39 /* gameFile.swift */,
 				6CBD902621DFC79A009F6C39 /* Assets.xcassets */,
 				6CBD902821DFC79A009F6C39 /* LaunchScreen.storyboard */,
 				6CBD902B21DFC79A009F6C39 /* Info.plist */,
-				6CBD903121DFD011009F6C39 /* gameFile.swift */,
+				6C4A27C021E038800097F95F /* delegateProtocol.swift */,
 			);
 			path = "Simon Says mk3";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				6CBD903221DFD011009F6C39 /* gameFile.swift in Sources */,
 				6CBD902221DFC799009F6C39 /* ViewController.swift in Sources */,
+				6C4A27C121E038800097F95F /* delegateProtocol.swift in Sources */,
 				6CBD902021DFC799009F6C39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
