@@ -41,6 +41,8 @@ class simonGame{
             print("\(sequenceArray[index])") //for debugging
         }
         
+        delegate?.showSequence(self)
+        
     }
     
     
@@ -60,6 +62,7 @@ class simonGame{
             
             if currentPress <= currentLevel {
                 //do nothing, and allow player to continue pressing sequence
+                print("Continue to next press") //for debugging
             }
             
             //new level
@@ -67,8 +70,21 @@ class simonGame{
                 currentPress = 0
                 currentLevel += 1
                 
+                //tells delegate to perform the following tasks
+                delegate?.playerProgressed(self)
+                delegate?.updateScoreboard(self)
+                delegate?.showSequence(self)
                 
             }
+            
+            
+        }
+        
+            
+        //player has pressed wrong button, and has lost
+        else{
+            delegate?.playerLost(self)
+            delegate?.updateScoreboard(self)
             
         }
         
